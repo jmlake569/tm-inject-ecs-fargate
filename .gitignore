@@ -1,0 +1,35 @@
+# Terraform files
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfvars
+*.tfvars.json
+.terraform/
+.terraform.lock.hcl
+
+# AWS CLI output files
+all_
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Python virtual environments
+venv/
+.env/
+
+# Node.js dependencies
+node_modules/
+
+# macOS specific files
+.DS_Store
+
+# Visual Studio Code settings
+.vscode/
+
+# Ignore secrets and credentials
+*.pem
+*.key
+*.crt
+*.env
